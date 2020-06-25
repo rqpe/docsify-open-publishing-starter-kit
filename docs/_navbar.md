@@ -1,5 +1,5 @@
-* [En](/)
-* [chinese](/zh-cn/)
+* [Item 1](/)
+* [Item 2](/)
 
 * Format
 
