@@ -2,13 +2,6 @@
 
 **Markdown** is a better way to write **HTML**, without all the complexities and ugliness that usually accompanies it.
 
-toc: {
-scope: '.markdown-section',
-headings: 'h1, h2, h3, h4, h5, h6',
-title: 'Table of Contents',
-},
-
-
 ![The Markdown Mark](../assets/images/markdown.png)  
 _Figure 1: The Markdown Mark_
 
