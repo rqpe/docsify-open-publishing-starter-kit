@@ -1,3 +1,5 @@
+* [En](/)
+* [chinese](/zh-cn/)
 
 * Format
 
