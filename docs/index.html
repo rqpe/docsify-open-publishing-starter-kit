@@ -28,15 +28,12 @@
   <script>
     // Docsify
     window.$docsify = {
-      alias: {
-    '/.*/summary.md': 'summary.md'
-  },
       // GENERAL SETTINGS
       // -----------------------------------------------------------------
       name: 'Report Title',
       repo: 'https://github.com/mrchristian/docsify-open-publishing-starter-kit',
       homepage: '/basics/overview.md',
-      loadSidebar: 'summary.md',
+      loadSidebar: true,
       loadNavbar: true,
 
       // SIDEBAR NAVIGATION
@@ -51,7 +48,7 @@
       search: {
         depth      : 3,
         noData     : 'No matches found.',
-        placeholder: 'Enter search text here...'
+        placeholder: 'Search report here...'
       },
 
       // CUSTOM PLUGINS
