@@ -28,19 +28,22 @@
   <script>
     // Docsify
     window.$docsify = {
+      alias: {
+    '/.*/SUMMARY.md': 'SUMMARY.md'
+  },
       // GENERAL SETTINGS
       // -----------------------------------------------------------------
-      name: 'Docsify Open Publishing Starter Kit',
-      // repo: 'https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/',
+      name: 'Report Title',
+      repo: 'https://github.com/mrchristian/docsify-open-publishing-starter-kit',
       homepage: '/basics/overview.md',
-      loadSidebar: true,
+      loadSidebar: 'summary.md',
       loadNavbar: true,
 
       // SIDEBAR NAVIGATION
       // -----------------------------------------------------------------
       auto2top   : true,
-      maxLevel   : 1,
-      subMaxLevel: 0,
+      maxLevel   : 2,
+      subMaxLevel: 1,
       externalLinkTarget: '_blank',
 
       // PLUGIN SETTINGS
