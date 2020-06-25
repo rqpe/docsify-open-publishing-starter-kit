@@ -1,12 +1,12 @@
 * [Item 1](/)
-* [Item 2](/)
+* [GitHub](/)
 
 * Format
 
   * [web book](/)
   * [PDF](/)
   * [eBook](/)
-  * [Print](/)
+  * [Print-on-demand](/)
 
 * Language
 
