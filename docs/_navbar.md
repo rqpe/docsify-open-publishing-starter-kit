@@ -1,5 +1,5 @@
 * [Item 1](/)
-* [GitHub](/)
+* [Item 2](/)
 
 * Format
 
