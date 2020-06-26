@@ -56,10 +56,9 @@ h1,
        color: var(--heading-h1-color, var(--heading-color));
    }*/
 
-  @media screen and (max-width: 1300px) {
-    body > .page_toc {
+
+    section.content > aside.nav > .page_toc {
         position: relative;
         left: 0;
         top: 50px !important;
     }
-  }
