@@ -60,5 +60,5 @@ h1,
     section.content > aside.nav > .page_toc {
         position: relative;
         left: 0;
-        top: 50px !important;
+        top: 80px !important;
     }
