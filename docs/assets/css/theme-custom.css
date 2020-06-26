@@ -28,3 +28,35 @@
 .responsive-wrap iframe{
   max-width: 100%;
 }
+
+h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   h6 {
+       &:first-child {
+           margin-top: 0;
+       }
+   }
+
+   h1 {
+       margin: var(--heading-h1-margin, var(--heading-margin));
+       padding: var(--heading-h1-padding, var(--heading-padding));
+       border-width: var(--heading-h1-border-width, 0);
+       border-style: var(--heading-h1-border-style);
+       border-color: var(--heading-h1-border-color);
+       font-family: var(--heading-h1-font-family, var(--heading-font-family));
+       font-size: var(--heading-h1-font-size);
+       font-weight: var(--heading-h1-font-weight, var(--heading-font-weight));
+       line-height: var(--base-line-height);
+       color: var(--heading-h1-color, var(--heading-color));
+   }
+
+  @media screen and (max-width: 1300px)
+    .page_toc {
+        position: relative;
+        left: 0;
+        top: 50px;
+    }
+}
