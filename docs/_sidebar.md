@@ -11,7 +11,8 @@
   - [Topic 1](advanced/adv-topic-1.md)
   - [Topic 2](advanced/adv-topic-2.md)
 - Open Science HTML testing
-  - [Topic 1](openscience/document-1.html )
-  - [Topic 2](openscience/index.html ) 
+  - [Topic 1 HTML](openscience/document-1.html)
+  - [Topic 1 as MD](openscience/document-1.md)
+  - [Topic 2](openscience/index.html)
 - **Project Documentation**
   - [ReadMe](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/blob/master/README.md)
