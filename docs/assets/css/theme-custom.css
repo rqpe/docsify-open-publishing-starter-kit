@@ -76,12 +76,13 @@ h1,
         position: relative;
         left: 0;
         top: 80px !important;
+        font-size: 14px;
     }
 
-    .page_toc ul a:hover {
-        color: #EE868F;
-    }
-
-    .app-nav a:hover {
+  }
+    .page_toc ul a:hover span {
+        color: var(--text-color-tertiary, #EE868F) !important;
+}
+  .app-nav a:hover {
     color: var(--theme-color, #42b983);
 }
