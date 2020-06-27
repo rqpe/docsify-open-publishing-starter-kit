@@ -115,7 +115,7 @@ h1,
 .sidebar nav{order:1;margin:var(--sidebar-nav-margin);padding:var(--sidebar-nav-padding);background:var(--sidebar-nav-background)}.sidebar-nav ul,.sidebar nav ul{margin:0;padding:0;list-style:none}.sidebar-nav ul ul,.sidebar nav ul ul{margin-left:var(--sidebar-nav-indent)}
 .sidebar-nav a,.sidebar nav a
 {
-  font-size: 10px;
+  font-size: 14px;
   display:block;
   overflow:hidden;
   margin:var(--sidebar-nav-link-margin);
