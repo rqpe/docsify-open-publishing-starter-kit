@@ -72,6 +72,10 @@ h1,
         top: 80px !important;
     }
 
-    .page_toc ul a:hover span {
+    .page_toc ul a:hover {
         color: #EE868F;
     }
+
+    .app-nav a:hover {
+    color: var(--theme-color, #42b983);
+}
