@@ -114,7 +114,9 @@ h1,
 .sidebar::-webkit-scrollbar-thumb{border-radius:50vw}@media (min-width: 48em){.sidebar{position:absolute;transform:translateX(var(--sidebar-width))}}@media print{.sidebar{display:none}}.sidebar-nav,
 .sidebar nav{order:1;margin:var(--sidebar-nav-margin);padding:var(--sidebar-nav-padding);background:var(--sidebar-nav-background)}.sidebar-nav ul,.sidebar nav ul{margin:0;padding:0;list-style:none}.sidebar-nav ul ul,.sidebar nav ul ul{margin-left:var(--sidebar-nav-indent)}
 .sidebar-nav a,.sidebar nav a
-{display:block;
+{
+  font-size: 10px;
+  display:block;
   overflow:hidden;
   margin:var(--sidebar-nav-link-margin);
   padding:var(--sidebar-nav-link-padding);
