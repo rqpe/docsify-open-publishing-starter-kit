@@ -136,30 +136,27 @@ h1,
         color: #EE868F !important;
 }*/
 
-aside.nav > .page_toc ul a:hover span  {
-  /*color: var(--link-color--hover, #EE868F) !important;*/
-  color: #EE868F !important;
-  border-bottom: 1px;
-  text-decoration:underline;
-}
 
 .nav .page_toc ul a:hover span {
   color: #EE868F !important;
-  border-bottom: none !important;
-  text-decoration:none !important;
 }
 aside.nav > .page_toc .active {
   border-left: 5px solid;
   color: var(--theme-color, #EE868F) !important;
   padding-left: 10px;
 }
-section.content > aside.nav > .app-nav li a:hover, .nav>.app-nav>ul>li>a:hover, .nav>.app-nav>ul>li>span:hover {
+/*section.content > aside.nav > .app-nav li a:hover, .nav>.app-nav>ul>li>a:hover, .nav>.app-nav>ul>li>span:hover {
     color: #EE868F !important;
-}
+}*/
 .app-nav>ul>li>a:visited, .app-nav>ul>li>a:visited>span {
     color: #EE868F!important;
     text-decoration: underline !important;
 }
+nav.app-nav li a:visited {
+    color: #EE868F!important;
+    text-decoration: underline !important;
+}
+
 /*.app-nav>ul>li>a:hover,.app-nav>ul>li>span:hover {
   background:var(--navbar-root-background--hover, var(--navbar-root-background));
   border-style:var(--navbar-root-border-style--hover, var(--navbar-root-border-style));
