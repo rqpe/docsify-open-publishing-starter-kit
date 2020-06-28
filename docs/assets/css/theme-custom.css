@@ -128,16 +128,16 @@ h1,
         color: #EE868F !important;
 }*/
 
-aside.nav > .page_toc ul a:hover span {
+aside.nav > .page_toc ul a:hover span,  {
   color: var(--link-color--hover, #EE868F);
-  border-bottom: none !important;
-  text-decoration:none !important;
+  border-bottom: 1px;
+  text-decoration:underline;
 }
 section.content > aside.nav > .app-nav li a:hover {
-    color: var(--theme-color, #42b983);
+    color: var(--theme-color, #EE868F);
 }
 section.content > aside.nav > .app-nav li a:visited {
-    color: var(--theme-color, #42b983);
+    color: var(--theme-color, #EE868F);
 }
 
 .sidebar {
