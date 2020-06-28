@@ -205,7 +205,7 @@ nav.app-nav li a:visited {
 .sidebar::-webkit-scrollbar-thumb{border-radius:50vw}@media (min-width: 48em){.sidebar{position:absolute;transform:translateX(var(--sidebar-width))}}@media print{.sidebar{display:none}}.sidebar-nav,
 .sidebar nav{order:1;margin:var(--sidebar-nav-margin);padding:var(--sidebar-nav-padding);background:var(--sidebar-nav-background)}.sidebar-nav ul,.sidebar nav ul{margin:0;padding:0;list-style:none}.sidebar-nav ul ul,.sidebar nav ul ul{margin-left:var(--sidebar-nav-indent)}*/
 .sidebar-nav, .sidebar nav { font-size: 14px; }
-.sidebar-nav a strong, .sidebar nav a strong { font-weight: normal; }
+.sidebar-nav a strong, .sidebar nav a strong { font-weight: var(--sidebar-nav-link-font-weight--hover, var(--sidebar-nav-link-font-weight)); }
 .sidebar-nav a,.sidebar nav a{
   white-space: normal;
   display:block;
