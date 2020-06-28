@@ -5,7 +5,7 @@
     --base-font-family                                : "Open sans"; /*--base-color: var(--mono-shade2);*/
     --link-color                                      : #000; /*#0A75BD*/
     --link-color--hover                               : #EE868F;
-    --link-text-decoration                            : underline dashed;
+    --link-text-decoration                            : underline;
     --link-text-decoration-color                      : #000;
     --sidebar-name-color                              : #000;
     --sidebar-background                              : #DCD0C5;
