@@ -51,11 +51,11 @@ color: var(--base-color);
     color:inherit;
 }
 .pagination-item a:visted .pagination-item-title {
-    color:inherit;
+    color: inherit;
 }
 .pagination-item:not(:last-child) a:hover .pagination-item-title {
     opacity: .3;
-    transition: all .0s;
+    transition: all .0s !important;
 }
 
 
@@ -128,19 +128,24 @@ h1,
         color: #EE868F !important;
 }*/
 
-aside.nav > .page_toc ul a:hover span,  {
-  color: var(--link-color--hover, #EE868F);
+aside.nav > .page_toc ul a:hover span  {
+  color: var(--link-color--hover, #EE868F) !important;
   border-bottom: 1px;
   text-decoration:underline;
 }
+aside.nav > .page_toc .active {
+  border-left: 5px solid;
+  color: var(--theme-color, #EE868F) !important;
+  padding-left: 10px;
+}
 section.content > aside.nav > .app-nav li a:hover {
-    color: var(--theme-color, #EE868F);
+    color: var(--theme-color, #EE868F) !important;
 }
 section.content > aside.nav > .app-nav li a:visited {
-    color: var(--theme-color, #EE868F);
+    color: var(--theme-color, #EE868F) !important;
 }
 
-.sidebar {
+/*.sidebar {
     display: flex;
     flex-direction: column;
     position: fixed;
@@ -156,17 +161,18 @@ section.content > aside.nav > .app-nav li a:visited {
     border-style: solid;
     border-color: var(--sidebar-border-color);
     background: var(--sidebar-background);
-}
+}*/
 
-.sidebar>h1{margin:0;margin:var(--sidebar-name-margin);padding:var(--sidebar-name-padding);background:var(--sidebar-name-background);color:var(--sidebar-name-color);font-family:var(--sidebar-name-font-family);font-size:var(--sidebar-name-font-size);font-weight:var(--sidebar-name-font-weight);text-align:var(--sidebar-name-text-align)}.sidebar>h1 img{max-width:100%}.sidebar>h1 .app-name-link{color:var(--sidebar-name-color)}body:not([data-platform^="Mac"]) .sidebar::-webkit-scrollbar{width:5px}body:not([data-platform^="Mac"])
+/*.sidebar>h1{margin:0;margin:var(--sidebar-name-margin);padding:var(--sidebar-name-padding);background:var(--sidebar-name-background);color:var(--sidebar-name-color);font-family:var(--sidebar-name-font-family);font-size:var(--sidebar-name-font-size);font-weight:var(--sidebar-name-font-weight);text-align:var(--sidebar-name-text-align)}.sidebar>h1 img{max-width:100%}.sidebar>h1 .app-name-link{color:var(--sidebar-name-color)}body:not([data-platform^="Mac"]) .sidebar::-webkit-scrollbar{width:5px}body:not([data-platform^="Mac"])
 .sidebar::-webkit-scrollbar-thumb{border-radius:50vw}@media (min-width: 48em){.sidebar{position:absolute;transform:translateX(var(--sidebar-width))}}@media print{.sidebar{display:none}}.sidebar-nav,
-.sidebar nav{order:1;margin:var(--sidebar-nav-margin);padding:var(--sidebar-nav-padding);background:var(--sidebar-nav-background)}.sidebar-nav ul,.sidebar nav ul{margin:0;padding:0;list-style:none}.sidebar-nav ul ul,.sidebar nav ul ul{margin-left:var(--sidebar-nav-indent)}
+.sidebar nav{order:1;margin:var(--sidebar-nav-margin);padding:var(--sidebar-nav-padding);background:var(--sidebar-nav-background)}.sidebar-nav ul,.sidebar nav ul{margin:0;padding:0;list-style:none}.sidebar-nav ul ul,.sidebar nav ul ul{margin-left:var(--sidebar-nav-indent)}*/
+
 .sidebar-nav a,.sidebar nav a
 {
   font-size: 14px;
   display:block;
   overflow:hidden;
-  margin:var(--sidebar-nav-link-margin);
+  /*margin:var(--sidebar-nav-link-margin);
   padding:var(--sidebar-nav-link-padding);
   border-width:var(--sidebar-nav-link-border-width, 0);
   border-style:var(--sidebar-nav-link-border-style);border-color:var(--sidebar-nav-link-border-color);border-radius:var(--sidebar-nav-link-border-radius);background-color:var(--sidebar-nav-link-background-color);background-image:var(--sidebar-nav-link-background-image);background-position:var(--sidebar-nav-link-background-position);background-repeat:var(--sidebar-nav-link-background-repeat);background-size:var(--sidebar-nav-link-background-size);
@@ -175,4 +181,4 @@ section.content > aside.nav > .app-nav li a:visited {
   white-space: normal;
   -webkit-text-decoration:var(--sidebar-nav-link-text-decoration);text-decoration:var(--sidebar-nav-link-text-decoration);-webkit-text-decoration-color:var(--sidebar-nav-link-text-decoration-color);text-decoration-color:var(--sidebar-nav-link-text-decoration-color);
   text-overflow:ellipsis;
-  transition:var(--sidebar-nav-link-transition)}
+transition:var(--sidebar-nav-link-transition)*/}
