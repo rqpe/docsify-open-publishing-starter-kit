@@ -46,6 +46,13 @@ color: var(--base-color);
   text-decoration:none}
 .markdown-section a.anchor:hover {color:inherit; text-decoration:underline; }
 .markdown-section a:visited:hover {color:inherit; }
+.pagination-item a:hover .pagination-item-title {
+    text-decoration: underline;
+    color:inherit;
+}
+.pagination-item a:visted .pagination-item-title {
+    color:inherit;
+}
 
 
 /*font-family: var(--base-font-family);
