@@ -53,10 +53,9 @@ color: var(--base-color);
 .pagination-item a:visited .pagination-item-title {
     color: inherit;
 }
-.pagination-item:not(:last-child) a:hover .pagination-item-title {
-    opacity: 1;
-    transition: all .0s !important;
-    transition: none;
+.pagination-item:not(:last-child) a:hover .pagination-item-title, .pagination-item:not(:last-child) a .pagination-item-title {
+    /*transition: all .0s !important;*/
+    transition: none !important;
 }
 
 
