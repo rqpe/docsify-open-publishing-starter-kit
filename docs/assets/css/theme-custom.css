@@ -53,7 +53,7 @@ color: var(--base-color);
 .pagination-item a:visted .pagination-item-title {
     color:inherit;
 }
-.pagination-item:not(:last-child) a .pagination-item-title {
+.pagination-item:not(:last-child) a:hover .pagination-item-title {
     opacity: .3;
     transition: all .0s;
 }
@@ -123,11 +123,11 @@ h1,
     }
 
   }
-    .page_toc ul a:hover span {
+  section.content > aside.nav > .page_toc ul a:hover span {
         /*color: var(--text-color-tertiary, #EE868F) !important;*/
         color: #EE868F !important;
 }
-  .app-nav a:hover {
+section.content > aside.nav > .app-nav a:hover {
     color: var(--theme-color, #42b983);
 }
 
