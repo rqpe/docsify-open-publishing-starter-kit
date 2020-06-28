@@ -14,7 +14,7 @@
     --heading-font-family                             : "IBM Plex Sans";
     --sidebar-nav-link-font-weight--active            : bold;
     --sidebar-border-color                            : #BAB3AC;
-    --sidebar-nav-strong-font-size                    : 12px;
+    /*--sidebar-nav-strong-font-size                    : 14px;*/
 
     --sidebar-width                                   : 22rem;
     --sidebar-nav-pagelink-background-image           : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='11.2' viewBox='0 0 7 11.2'%3E%3Cpath d='M1.5 1.5l4 4.1 -4 4.1' stroke-width='1.5' stroke='black' fill='none' stroke-linecap='square' stroke-linejoin='miter' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
@@ -152,9 +152,22 @@ aside.nav > .page_toc .active {
     color: #EE868F!important;
     text-decoration: underline !important;
 }*/
+nav.app-nav li a:active, nav.app-nav li a:hover {
+    color: #EE868F !important;
+}
 nav.app-nav li a:visited {
     color: inherit;
 }
+
+/*SIMON
+}
+nav.app-nav li a:active, nav.app-nav li a:hover {
+    color: #ED7C00 !important;
+}
+nav.app-nav li a:visited {
+    color: inherit;
+}*/
+
 
 /*.app-nav>ul>li>a:hover,.app-nav>ul>li>span:hover {
   background:var(--navbar-root-background--hover, var(--navbar-root-background));
