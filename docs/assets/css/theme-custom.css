@@ -53,7 +53,7 @@ color: var(--base-color);
 .pagination-item a:visited .pagination-item-title {
     color: inherit;
 }
-.pagination-item:not(:last-child) a:hover .pagination-item-title, .pagination-item:not(:last-child) a .pagination-item-title {
+.pagination-item:not(:last-child) a:hover .pagination-item-title, .pagination-item:not(:last-child) a .pagination-item-title, .pagination-item:not(:last-child) a .pagination-item-label {
     /*transition: all .0s !important;*/
     -webkit-transition:none !important;
   -moz-transition:none !important;
