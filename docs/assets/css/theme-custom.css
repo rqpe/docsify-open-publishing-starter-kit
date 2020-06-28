@@ -53,6 +53,10 @@ color: var(--base-color);
 .pagination-item a:visted .pagination-item-title {
     color:inherit;
 }
+.pagination-item:not(:last-child) a:hover .pagination-item-title {
+    opacity: .3;
+    transition: none;
+}
 
 
 /*font-family: var(--base-font-family);
