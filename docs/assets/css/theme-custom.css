@@ -120,7 +120,7 @@ h1,
        font-size: var(--heading-h1-font-size);
        font-weight: var(--heading-h1-font-weight, var(--heading-font-weight));
        line-height: var(--base-line-height);
-       color: var(--heading-h1-color, var(--heading-color));
+       color: var(--heading-h1-color, var(--heading-color));}
    }*/
 
 
@@ -131,7 +131,6 @@ h1,
         font-size: 14px;
     }
 
-  }
   section.content > aside.nav > .page_toc ul a:hover span {
         color: var(--text-color-tertiary, #EE868F) !important;
         color: #EE868F !important;
