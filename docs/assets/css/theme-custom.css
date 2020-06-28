@@ -170,11 +170,12 @@ section.content > aside.nav > .app-nav li a:visited {
 .sidebar-nav a,.sidebar nav a
 {
   font-size: 14px;
-
   white-space: normal;
-  /*
   display:block;
-  overflow:hidden;
+  overflow: visible;
+    /*overflow:hidden;
+
+
   margin:var(--sidebar-nav-link-margin);
   padding:var(--sidebar-nav-link-padding);
   border-width:var(--sidebar-nav-link-border-width, 0);
