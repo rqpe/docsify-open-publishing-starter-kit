@@ -150,8 +150,9 @@ aside.nav > .page_toc .active {
 section.content > aside.nav > .app-nav li a:hover, .nav>.app-nav>ul>li>a:hover, .nav>.app-nav>ul>li>span:hover {
     color: #EE868F !important;
 }
-nav.app-nav>ul>li>a:visited, nav.app-nav>ul>li>a:visited>span {
+.app-nav>ul>li>a:visited, .app-nav>ul>li>a:visited>span {
     color: #EE868F!important;
+    text-decoration: underline !important;
 }
 /*.app-nav>ul>li>a:hover,.app-nav>ul>li>span:hover {
   background:var(--navbar-root-background--hover, var(--navbar-root-background));
