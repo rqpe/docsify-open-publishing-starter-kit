@@ -123,9 +123,15 @@ h1,
     }
 
   }
-  section.content > aside.nav > .page_toc ul a:hover span {
-        /*color: var(--text-color-tertiary, #EE868F) !important;*/
+  /*section.content > aside.nav > .page_toc ul a:hover span {
+        color: var(--text-color-tertiary, #EE868F) !important;
         color: #EE868F !important;
+}*/
+
+aside.nav > .page_toc ul a:hover span {
+  color: var(--link-color--hover, #EE868F);
+  border-bottom: none !important;
+  text-decoration:none !important;
 }
 section.content > aside.nav > .app-nav li a:hover {
     color: var(--theme-color, #42b983);
