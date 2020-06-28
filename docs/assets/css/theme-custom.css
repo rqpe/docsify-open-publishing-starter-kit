@@ -4,13 +4,14 @@
     --base-font-size                                  : 16px;
     --base-font-family                                : "Open sans";
     --link-color                                      : #000; /*#0A75BD*/
+    --link-text-decoration                            : dashed;
     --sidebar-name-color                              : #000;
     --sidebar-background                              : #DCD0C5;
     --sidebar-nav-link-color--active                  : #4D4D4D;
     --blockquote-border-color                         : #EE868F;
     --heading-font-family                             : "IBM Plex Sans";
     --sidebar-nav-link-font-weight--active            : bold;
-    --sidebar-border-color                            : #000;
+    --sidebar-border-color                            : #BAB3AC;
     --sidebar-nav-strong-font-size                    : 12px;
 
     --sidebar-width                                   : 22rem;
