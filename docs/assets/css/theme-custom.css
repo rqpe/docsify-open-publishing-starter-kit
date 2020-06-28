@@ -147,6 +147,9 @@ aside.nav > .page_toc .active, aside.nav > .page_toc ul a:hover.active span {
   padding-left: 10px;
   font-weight: bold;
 }
+aside.nav > .page_toc ul a:hover.active span {
+  color: var(--base-color) !important;
+}
 aside.nav > .page_toc li strong {
   font-weight: normal;
 }
