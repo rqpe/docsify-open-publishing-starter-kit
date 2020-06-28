@@ -35,7 +35,7 @@
   text-decoration-color:var(--link-text-decoration-color--hover, var(--link-text-decoration-color))}
 */
 .markdown-section a:visited {
-  color: grey;
+  color: #989898;
 }
 
 .markdown-section a:visited.anchor  {
@@ -161,7 +161,7 @@ nav.app-nav li a:active, nav.app-nav li a:hover {
     -o-transition:none !important;
     transition:none !important;
 }
-nav.app-nav li a:visited {
+nav.app-nav li a, nav.app-nav li a:visited {
     color: inherit;
 }
 
@@ -206,7 +206,7 @@ nav.app-nav li a:visited {
 .sidebar::-webkit-scrollbar-thumb{border-radius:50vw}@media (min-width: 48em){.sidebar{position:absolute;transform:translateX(var(--sidebar-width))}}@media print{.sidebar{display:none}}.sidebar-nav,
 .sidebar nav{order:1;margin:var(--sidebar-nav-margin);padding:var(--sidebar-nav-padding);background:var(--sidebar-nav-background)}.sidebar-nav ul,.sidebar nav ul{margin:0;padding:0;list-style:none}.sidebar-nav ul ul,.sidebar nav ul ul{margin-left:var(--sidebar-nav-indent)}*/
 .sidebar-nav, .sidebar nav { font-size: 14px; }
-.sidebar-nav a strong, .sidebar nav a strong { font-weight:  var(--sidebar-nav-link-font-weight); }
+.sidebar-nav a strong, .sidebar nav a strong { font-weight:  var(--sidebar-nav-link-font-weight)}
 .sidebar-nav a,.sidebar nav a{
   white-space: normal;
   display:block;
