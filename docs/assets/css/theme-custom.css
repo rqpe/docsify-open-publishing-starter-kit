@@ -170,15 +170,18 @@ section.content > aside.nav > .app-nav li a:visited {
 .sidebar-nav a,.sidebar nav a
 {
   font-size: 14px;
+
+  white-space: normal;
+  /*
   display:block;
   overflow:hidden;
-  /*margin:var(--sidebar-nav-link-margin);
+  margin:var(--sidebar-nav-link-margin);
   padding:var(--sidebar-nav-link-padding);
   border-width:var(--sidebar-nav-link-border-width, 0);
   border-style:var(--sidebar-nav-link-border-style);border-color:var(--sidebar-nav-link-border-color);border-radius:var(--sidebar-nav-link-border-radius);background-color:var(--sidebar-nav-link-background-color);background-image:var(--sidebar-nav-link-background-image);background-position:var(--sidebar-nav-link-background-position);background-repeat:var(--sidebar-nav-link-background-repeat);background-size:var(--sidebar-nav-link-background-size);
   color:var(--sidebar-nav-link-color);
   font-weight:var(--sidebar-nav-link-font-weight);
-  white-space: normal;
+
   -webkit-text-decoration:var(--sidebar-nav-link-text-decoration);text-decoration:var(--sidebar-nav-link-text-decoration);-webkit-text-decoration-color:var(--sidebar-nav-link-text-decoration-color);text-decoration-color:var(--sidebar-nav-link-text-decoration-color);
   text-overflow:ellipsis;
 transition:var(--sidebar-nav-link-transition)*/}
