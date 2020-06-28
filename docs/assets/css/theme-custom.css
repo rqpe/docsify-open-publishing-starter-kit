@@ -134,7 +134,7 @@ h1,
   section.content > aside.nav > .page_toc ul a:hover span {
         color: var(--text-color-tertiary, #EE868F) !important;
         color: #EE868F !important;
-}¡
+}
 
 
 .nav .page_toc ul a:hover span {
@@ -145,7 +145,7 @@ aside.nav > .page_toc .active {
   color: var(--theme-color, #EE868F) !important;
   padding-left: 10px;
 }
-section.content > aside.nav > .app-nav li a:hover, .nav>.app-nav>ul>li>a:hover, .nav>.app-nav>ul>li>span:hover {
+/*section.content > aside.nav > .app-nav li a:hover, .nav>.app-nav>ul>li>a:hover, .nav>.app-nav>ul>li>span:hover {
     color: #EE868F !important;
 }
 /*.app-nav>ul>li>a:visited, .app-nav>ul>li>a:visited>span {
