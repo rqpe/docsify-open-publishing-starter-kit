@@ -2,7 +2,7 @@
 
 :root {
     --base-font-size                                  : 16px;
-    --base-font-family                                : "Open sans";
+    --base-font-family                                : "Open sans"; /*--base-color*/
     --link-color                                      : #000; /*#0A75BD*/
     --link-color--hover                               : #EE868F;
     --link-text-decoration                            : underline dashed;
@@ -138,12 +138,20 @@ aside.nav > .page_toc .active {
   color: var(--theme-color, #EE868F) !important;
   padding-left: 10px;
 }
-section.content > aside.nav > .app-nav li a:hover {
+section.content > aside.nav > .app-nav li a:hover, aside.nav>.app-nav>ul>li>a:hover, aside.nav>.app-nav>ul>li>span:hover {
     color: var(--theme-color, #EE868F) !important;
 }
-section.content > aside.nav > .app-nav li a:visited {
+section.content > aside.nav > .app-nav li a:visited, aside.nav>.app-nav>ul>li>a:visited, aside.nav>.app-nav>ul>li>span:visited  {
     color: var(--theme-color, #EE868F) !important;
 }
+/*.app-nav>ul>li>a:hover,.app-nav>ul>li>span:hover {
+  background:var(--navbar-root-background--hover, var(--navbar-root-background));
+  border-style:var(--navbar-root-border-style--hover, var(--navbar-root-border-style));
+  border-color:var(--navbar-root-border-color--hover, var(--navbar-root-border-color));
+  color:var(--navbar-root-color--hover, var(--navbar-root-color));
+  -webkit-text-decoration:var(--navbar-root-text-decoration--hover, var(--navbar-root-text-decoration));
+  text-decoration:var(--navbar-root-text-decoration--hover, var(--navbar-root-text-decoration));-webkit-text-decoration-color:var(--navbar-root-text-decoration-color--hover, var(--navbar-root-text-decoration-color));
+  text-decoration-color:var(--navbar-root-text-decoration-color--hover, var(--navbar-root-text-decoration-color))}
 
 /*.sidebar {
     display: flex;
