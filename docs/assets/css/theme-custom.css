@@ -127,7 +127,10 @@ h1,
         /*color: var(--text-color-tertiary, #EE868F) !important;*/
         color: #EE868F !important;
 }
-section.content > aside.nav > .app-nav a:hover {
+section.content > aside.nav > .app-nav li a:hover {
+    color: var(--theme-color, #42b983);
+}
+section.content > aside.nav > .app-nav li a:visited {
     color: var(--theme-color, #42b983);
 }
 
