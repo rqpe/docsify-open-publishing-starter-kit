@@ -140,7 +140,7 @@ h1,
 .nav .page_toc ul a:hover span {
   color: #EE868F !important;
 }
-aside.nav > .page_toc .active, aside.nav > .page_toc .active a:hover {
+aside.nav > .page_toc .active, aside.nav > .page_toc a.active:hover {
   border-left: 5px solid #0B87DA;
   color: inherit !important;
   /*color: var(--theme-color, #EE868F) !important;*/
