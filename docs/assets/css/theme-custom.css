@@ -33,7 +33,7 @@
   -webkit-text-decoration-color:var(--link-text-decoration-color--hover, var(--link-text-decoration-color));
   text-decoration-color:var(--link-text-decoration-color--hover, var(--link-text-decoration-color))}
 
-  .markdown-section a:visited {
+.markdown-section a:visited {
   color: grey;
 }
 
@@ -46,10 +46,10 @@ color: var(--base-color);
   text-decoration:none}
 .markdown-section a.anchor:hover {color:inherit; text-decoration:underline; }
 .markdown-section a:visited:hover {color:inherit; }
-.pagination-item a:hover .pagination-item-title {
+/*.pagination-item a:hover .pagination-item-title {
     text-decoration: underline;
     color:inherit;
-}
+}*/
 .pagination-item a:visited .pagination-item-title {
     color: inherit;
 }
@@ -150,7 +150,7 @@ aside.nav > .page_toc .active {
 section.content > aside.nav > .app-nav li a:hover, .nav>.app-nav>ul>li>a:hover, .nav>.app-nav>ul>li>span:hover {
     color: #EE868F !important;
 }
-section.content > aside.nav > .app-nav li a:visited, .nav>.app-nav>ul>li>a:visited, .nav>.app-nav>ul>li>a:visited>span {
+nav.app-nav>ul>li>a:visited, nav.app-nav>ul>li>a:visited>span {
     color: #EE868F!important;
 }
 /*.app-nav>ul>li>a:hover,.app-nav>ul>li>span:hover {
