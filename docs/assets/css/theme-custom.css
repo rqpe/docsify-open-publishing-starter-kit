@@ -50,12 +50,13 @@ color: var(--base-color);
     text-decoration: underline;
     color:inherit;
 }
-.pagination-item a:visted .pagination-item-title {
+.pagination-item a:visited .pagination-item-title {
     color: inherit;
 }
 .pagination-item:not(:last-child) a:hover .pagination-item-title {
-    opacity: .3;
+    opacity: 1;
     transition: all .0s !important;
+    transition: none;
 }
 
 
@@ -129,7 +130,8 @@ h1,
 }*/
 
 aside.nav > .page_toc ul a:hover span  {
-  color: var(--link-color--hover, #EE868F) !important;
+  /*color: var(--link-color--hover, #EE868F) !important;*/
+  color: #EE868F !important;
   border-bottom: 1px;
   text-decoration:underline;
 }
@@ -138,11 +140,11 @@ aside.nav > .page_toc .active {
   color: var(--theme-color, #EE868F) !important;
   padding-left: 10px;
 }
-section.content > aside.nav > .app-nav li a:hover, aside.nav>.app-nav>ul>li>a:hover, aside.nav>.app-nav>ul>li>span:hover {
-    color: var(--theme-color, #EE868F) !important;
+section.content > aside.nav > .app-nav li a:hover, .nav>.app-nav>ul>li>a:hover, .nav>.app-nav>ul>li>span:hover {
+    color: #EE868F !important;
 }
-section.content > aside.nav > .app-nav li a:visited, aside.nav>.app-nav>ul>li>a:visited, aside.nav>.app-nav>ul>li>span:visited  {
-    color: var(--theme-color, #EE868F) !important;
+section.content > aside.nav > .app-nav li a:visited, .nav>.app-nav>ul>li>a:visited, .nav>.app-nav>ul>li>a:visited>span {
+    color: #EE868F!important;
 }
 /*.app-nav>ul>li>a:hover,.app-nav>ul>li>span:hover {
   background:var(--navbar-root-background--hover, var(--navbar-root-background));
