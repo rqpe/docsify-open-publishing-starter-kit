@@ -2,7 +2,7 @@
 
 :root {
     --base-font-size                                  : 16px;
-    --base-font-family                                : "Open sans", ; /*--base-color: var(--mono-shade2);*/
+    --base-font-family                                : "Open sans" ; /*--base-color: var(--mono-shade2);*/
     --link-color                                      : #000; /*#0A75BD*/
     --link-color--hover                               : #EE868F;
     --link-border-bottom--hover                       : #EE868F;
@@ -93,8 +93,6 @@ color: var(--base-color);
   max-width: 100%;
 }
 section.content > aside.nav > .page_toc {
-  /*position: relative;
-  left: 0;*/
   top: 80px !important;
   font-size: 14px;
 }
@@ -108,19 +106,18 @@ section.content > aside.nav > .page_toc ul a:hover span {
 aside.nav > .page_toc .active {
   border-left: 5px solid #0B87DA;
   color: inherit !important;
-  /*color: var(--theme-color, #EE868F) !important; var(--base-color)*/
   padding-left: 10px;
   font-weight: bold;
 }
 /*aside.nav > .page_toc ul a:hover.active span {
   color: grey !important;
-}*/
+}
 aside.nav > .page_toc li strong {
   font-weight: normal;
 }
 aside.nav > .page_toc .active strong {
   font-weight: bold;
-}
+}*/
 /*section.content > aside.nav > .app-nav li a:hover, .nav>.app-nav>ul>li>a:hover, .nav>.app-nav>ul>li>span:hover {
     color: #EE868F !important;
 }
