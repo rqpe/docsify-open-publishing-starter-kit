@@ -2,7 +2,7 @@
 
 :root {
     --base-font-size                                  : 16px;
-    --base-font-family                                : "Open sans"; /*--base-color: var(--mono-shade2);*/
+    --base-font-family                                : "Open sans", ; /*--base-color: var(--mono-shade2);*/
     --link-color                                      : #000; /*#0A75BD*/
     --link-color--hover                               : #EE868F;
     --link-border-bottom--hover                       : #EE868F;
@@ -12,7 +12,7 @@
     --sidebar-background                              : #DCD0C5;
     --sidebar-nav-link-color--active                  : #4D4D4D;
     --blockquote-border-color                         : #EE868F;
-    --heading-font-family                             : "IBM Plex Sans";
+    --heading-font-family                             : "IBM Plex Sans", ;
     --sidebar-nav-link-font-weight--active            : bold;
     --sidebar-border-color                            : #BAB3AC;
     --sidebar-width                                   : 22rem;
@@ -112,9 +112,9 @@ aside.nav > .page_toc .active {
   padding-left: 10px;
   font-weight: bold;
 }
-aside.nav > .page_toc ul a:hover.active span {
+/*aside.nav > .page_toc ul a:hover.active span {
   color: grey !important;
-}
+}*/
 aside.nav > .page_toc li strong {
   font-weight: normal;
 }
