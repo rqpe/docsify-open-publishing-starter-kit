@@ -109,15 +109,17 @@ aside.nav > .page_toc .active {
   padding-left: 10px;
   font-weight: bold;
 }
-/*aside.nav > .page_toc ul a:hover.active span {
+aside.nav > .page_toc ul a:hover.active span {
   color: grey !important;
 }
 aside.nav > .page_toc li strong {
   font-weight: normal;
+  color: inherit !important;
 }
 aside.nav > .page_toc .active strong {
   font-weight: bold;
-}*/
+  color: inherit !important;
+}
 /*section.content > aside.nav > .app-nav li a:hover, .nav>.app-nav>ul>li>a:hover, .nav>.app-nav>ul>li>span:hover {
     color: #EE868F !important;
 }
