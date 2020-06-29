@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,600&family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&display=fallback');
 
 :root {
-    --base-font-size                                  : 20px;
+    --base-font-size                                  : 16px;
     --base-font-family                                : "Open sans"; /*--base-color: var(--mono-shade2);*/
     --link-color                                      : #000; /*#0A75BD*/
     --link-color--hover                               : #EE868F;
@@ -92,12 +92,12 @@ color: var(--base-color);
 .responsive-wrap iframe{
   max-width: 100%;
 }
-section.content > aside.nav > .page_toc {
+/*section.content > aside.nav > .page_toc {
   position: relative;
   left: 0;
   top: 80px !important;
   font-size: 14px;
-}
+}*/
 section.content > aside.nav > .page_toc ul a:hover span {
   color: var(--text-color-tertiary, #EE868F) !important;
   color: #EE868F !important;
